@@ -1,0 +1,4 @@
+from random import randint
+x=int(input())
+a=[randint(10,50) for i in range(x)]
+print(a)
